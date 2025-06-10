@@ -1,0 +1,64 @@
+/* src/components/css/devdashboard.css */
+
+.customer-dashboard-dev {
+  display: flex;
+  height: 100vh;
+  font-family: Consolas, 'Courier New', monospace;
+  background-color: #21252b;
+  color: #ccc;
+}
+
+.sidebar-dev {
+  width: 240px;
+  background-color: #1d1f21;
+  padding: 20px;
+  border-right: 1px solid #2f3337;
+}
+
+.sidebar-dev h2 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.sidebar-dev ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-dev li {
+  padding: 8px 0;
+}
+
+.sidebar-dev a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.sidebar-dev a:hover {
+  color: #fff;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #21252b;
+}
+
+.main-panel pre {
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.loading-text {
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 14px;
+  color: #ccc;
+  padding: 20px;
+}

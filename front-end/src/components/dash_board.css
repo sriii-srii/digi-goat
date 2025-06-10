@@ -1,0 +1,54 @@
+/* components/dash_board.css */
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #003366;
+  color: white;
+  width: 220px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  background-color: #f0f8ff;
+  padding: 30px;
+}
+
+.main-content h1 {
+  margin-bottom: 10px;
+}
+
+.profile-section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

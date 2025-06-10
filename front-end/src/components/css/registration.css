@@ -1,0 +1,108 @@
+/* registration.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../images/index.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.registration-card {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.registration-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .registration-card {
+    padding: 30px;
+    width: 90%;
+  }
+
+  .registration-title {
+    font-size: 22px;
+  }
+
+  .registration-button {
+    padding: 10px;
+    font-size: 15px;
+  }
+}

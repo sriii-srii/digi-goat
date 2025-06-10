@@ -1,0 +1,51 @@
+/* styles/customerDashboard.css */
+
+.customer-dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #001f3f; /* Dark Blue */
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #004080;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f0f8ff; /* Light Blue */
+  padding: 30px;
+}
+
+.main-content h1 {
+  margin-bottom: 10px;
+}
+
+.profile-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section p {
+  margin: 10px 0;
+  font-size: 16px;
+}
