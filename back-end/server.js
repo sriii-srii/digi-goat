@@ -3,6 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const cors = require('cors');
 const path = require('path');
+const bidRoutes = require('./routes/bidRoutes');
 
 
 
@@ -46,6 +47,7 @@ const adminRoutes = require('./routes/adminRoutes');
 const healthRoutes = require('./routes/healthRoutes');
 const wishlistRoutes = require('./routes/wishlistRoutes');
 const purchaseRoutes = require('./routes/purchaseRoutes');
+const mediaRoutes = require('./routes/mediaRoutes');
 
 // ✅ Mount Routes
 app.use('/api/auth', authRoutes);
@@ -55,6 +57,8 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/health', healthRoutes);
 app.use('/api/wishlist', wishlistRoutes);
 app.use('/api/purchases', purchaseRoutes);
+app.use('/api/bids', bidRoutes);
+app.use('/api/media', mediaRoutes);
 
 
 

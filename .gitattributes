@@ -1,0 +1,9 @@
+# Auto normalize all text files
+* text=auto
+
+# Enforce LF for source files
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf

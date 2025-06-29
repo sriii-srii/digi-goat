@@ -1,0 +1,53 @@
+/* mediaGallery.css */
+
+/* Gallery container */
+.media-gallery-wrapper {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+/* Styling for ImageGallery carousel */
+.image-gallery-slide img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.wishlist-btn, .bid-btn {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.wishlist-btn { background-color: purple; }
+.bid-btn { background-color: green; }
+.bid-btn:disabled { background: gray; }
+
+/* Drag‑and‑drop area */
+.dropzone {
+  border: 2px dashed #999;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.dropzone.active {
+  border-color: #4a90e2;
+}
+
+/* Previews */
+.preview-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.preview-gallery img,
+.preview-gallery video {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

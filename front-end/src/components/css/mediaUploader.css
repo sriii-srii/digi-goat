@@ -1,0 +1,4 @@
+.media-grid { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px; }
+.media-item { position:relative; width:100px; height:100px; }
+.media-item img, .media-item video { width:100%; height:100%; object-fit:cover; }
+.media-item button { position:absolute; top:2px; right:2px; background:red; color:white; padding:2px 4px; border:none; border-radius:3px; font-size:12px; }

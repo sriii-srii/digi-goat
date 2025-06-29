@@ -12,6 +12,8 @@ import AdminDashboard from './components/AdminDashboard'; // ✅ NEW IMPORT
 import BuyGoats from './components/BuyGoats';
 import Wishlist from './components/Wishlist';
 import PurchasedGoats from './components/PurchasedGoats';
+import BidHistory from './components/BidHistory';
+
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <Route path="/buy-goats" element={<BuyGoats />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/purchased-goats" element={<PurchasedGoats />} />
+        <Route path="/bid-history" element={<BidHistory />} />
+
       </Routes>
     </div>
   );

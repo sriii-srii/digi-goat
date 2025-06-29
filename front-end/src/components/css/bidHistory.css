@@ -1,0 +1,25 @@
+.bid-history-container {
+  padding: 20px;
+}
+
+.bid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.bid-card {
+  display: flex;
+  gap: 12px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.bid-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
