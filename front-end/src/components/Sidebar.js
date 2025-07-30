@@ -44,11 +44,13 @@ const Sidebar = () => {
         <li><Link to="/orders"> 🛒 Orders</Link></li>
         <li><Link to="/purchased-goats">📦 Purchased Goats</Link></li>
         <li><Link to="/bid-history">📑 Bid History</Link></li>
-
-        {/*} <li><Link to="/add-goat">Goat Registration</Link></li>*/}
         <li><Link to="/my-goats">🐐 My Goats</Link></li>
         <li><Link to="/logout">Logout</Link></li>
-        {/*} <li><Link to="/add-goat">Goat Registration</Link></li>*/}
+        <li><Link to="/campaigns">📢 Campaigns</Link></li>
+        <li><Link to="/campaign-market">💸 View Campaigns</Link></li>
+
+        {/* ✅ NEW LINK BELOW */}
+        <li><Link to="/my-contributions">📄 My Contributions</Link></li>
       </ul>
     </div>
   );

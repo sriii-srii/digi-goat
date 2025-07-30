@@ -13,6 +13,11 @@ import BuyGoats from './components/BuyGoats';
 import Wishlist from './components/Wishlist';
 import PurchasedGoats from './components/PurchasedGoats';
 import BidHistory from './components/BidHistory';
+import Campaigns from './components/Campaigns';
+import ViewCampaigns from './components/ViewCampaigns';
+import CampaignContributors from './components/CampaignContributors';
+import MyContributions from './components/MyContributions';
+
 
 
 
@@ -32,6 +37,10 @@ function App() {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/purchased-goats" element={<PurchasedGoats />} />
         <Route path="/bid-history" element={<BidHistory />} />
+        <Route path="/campaigns" element={<Campaigns />} />
+        <Route path="/campaign-market" element={<ViewCampaigns />} />
+        <Route path="/campaign/:id/contributors" element={<CampaignContributors />} />
+        <Route path="/my-contributions" element={<MyContributions />} />
 
       </Routes>
     </div>
